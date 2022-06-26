@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".BluetoothPageActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/onoffimg"
+                android:layout_width="440px"
+                android:layout_height="450px"
+                android:layout_marginStart="270px"
+                android:layout_marginTop="140px">
+            </ImageView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="490px"
+                android:src="@drawable/turnonbutton">
+            </ImageView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="740px"
+                android:src="@drawable/turnoffbutton">
+            </ImageView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="990px"
+                android:src="@drawable/showdevices">
+            </ImageView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="990px"
+                android:src="@drawable/showdevices">
+            </ImageView>
+
+
+            <Button
+                android:id="@+id/onbutton"
+                android:layout_width="950px"
+                android:layout_height="230px"
+                android:layout_marginTop="660px"
+                android:alpha="0">
+            </Button>
+
+            <Button
+                android:layout_width="950px"
+                android:layout_height="230px"
+                android:layout_marginTop="900px"
+                android:alpha="0"
+                android:id="@+id/offbutton">
+            </Button>
+
+
+            <Button
+                android:layout_width="950px"
+                android:layout_height="230px"
+                android:layout_marginTop="1150px"
+                android:alpha="0"
+                android:id="@+id/pairedbutton">
+            </Button>
+            <TextView
+                android:id="@+id/pairedtext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="550dp"
+                android:layout_marginStart="230px"
+                android:fontFamily="@font/norsal"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="#E1FFFFFF"
+                android:textSize="20dp">
+
+            </TextView>
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

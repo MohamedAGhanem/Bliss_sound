@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/helpbg"
+    tools:context=".BluetoothPageActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:layout_width="700px"
+                android:layout_height="700px"
+                android:layout_marginTop="450px"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/callbutton">
+            </ImageView>
+
+            <ImageView
+                android:layout_width="700px"
+                android:layout_height="700px"
+                android:layout_marginTop="1000px"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/reportbutton">
+            </ImageView>
+
+
+            <Button
+                android:id="@+id/reportbutton"
+                android:layout_width="700px"
+                android:layout_height="550px"
+                android:layout_marginTop="1080px"
+                android:layout_centerHorizontal="true"
+                android:alpha="0">
+            </Button>
+
+            <Button
+                android:layout_width="700px"
+                android:layout_height="510px"
+                android:layout_marginTop="545px"
+                android:layout_centerHorizontal="true"
+                android:alpha="0"
+                android:id="@+id/calltbutton">
+            </Button>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
