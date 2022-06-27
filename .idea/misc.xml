@@ -3,12 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/University/Application for HS/app/src/main/res/drawable/ic_la.xml" value="0.1" />
         <entry key="..\:/University/Application for HS/app/src/main/res/layout/activity_about_page.xml" value="0.2421875" />
         <entry key="..\:/University/Application for HS/app/src/main/res/layout/activity_bluetooth_page.xml" value="0.264" />
         <entry key="..\:/University/Application for HS/app/src/main/res/layout/activity_chat_bot.xml" value="0.2421875" />
         <entry key="..\:/University/Application for HS/app/src/main/res/layout/activity_doctor_page.xml" value="0.2421875" />
         <entry key="..\:/University/Application for HS/app/src/main/res/layout/activity_guide_page.xml" value="0.2421875" />
         <entry key="..\:/University/Application for HS/app/src/main/res/layout/activity_main.xml" value="0.5462962962962963" />
+        <entry key="..\:/University/Application for HS/app/src/main/res/layout/ic_la.xml" value="0.2421875" />
+        <entry key="..\:/University/Application for HS/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/University/Application for HS/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
       </map>
     </option>
   </component>
