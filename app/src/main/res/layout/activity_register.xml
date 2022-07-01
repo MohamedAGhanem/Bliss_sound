@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/registerpage"
+    tools:context=".BluetoothPageActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="750px"
+                android:hint="name"
+                android:textColorHint="#5F6E71"
+                android:textColor="#090C3A"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="990px" />
+
+            <ImageView
+                android:layout_width="800px"
+                android:layout_height="800px"
+                android:layout_marginTop="1050px"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/next">
+            </ImageView>
+
+            <Button
+                android:layout_width="800px"
+                android:layout_height="200px"
+                android:layout_marginTop="1350px"
+                android:layout_centerHorizontal="true"
+                android:alpha="0"
+                android:id="@+id/nextbutton"/>
+
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

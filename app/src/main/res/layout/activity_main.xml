@@ -19,12 +19,14 @@
             android:layout_marginLeft="20dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:id="@+id/wlcmtext"
                 android:layout_marginTop="30dp"
                 android:fontFamily="@font/norsal"
-                android:text="Welcome @username"
+                android:text=""
                 android:textColor="#E1FFFFFF"
                 android:textSize="32dp">
 
@@ -54,13 +56,14 @@
                 android:layout_marginStart="20px"
                 android:layout_marginTop="120px"
                 android:src="@drawable/about" />
+
             <Button
                 android:id="@+id/helpbutton"
-                android:alpha="0"
                 android:layout_width="450px"
                 android:layout_height="450px"
                 android:layout_marginStart="500px"
-                android:layout_marginTop="575px" />
+                android:layout_marginTop="575px"
+                android:alpha="0" />
             <Button
                 android:id="@+id/guidebutton"
                 android:alpha="0"
@@ -86,11 +89,13 @@
                 android:src="@drawable/about" />
 
             <ImageView
-                android:layout_width="450px"
-                android:layout_height="450px"
+                android:layout_width="164dp"
+                android:layout_height="159dp"
+                android:layout_alignBottom="@+id/helpbutton"
                 android:layout_marginStart="500px"
                 android:layout_marginTop="575px"
-                android:src="@drawable/doctor" />
+                android:layout_marginBottom="7dp"
+                android:src="@drawable/help" />
 
             <ImageView
                 android:layout_width="450px"

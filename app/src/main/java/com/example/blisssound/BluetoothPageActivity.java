@@ -18,7 +18,6 @@ import java.util.Set;
 
 public class BluetoothPageActivity extends AppCompatActivity {
     public static final int REQUEST_ENABLE_BT = 0;
-    public static final int REQUEST_DISCOVER_BT = 1;
     Button onbutton;
     Button offbutton;
     Button pairedbutton;
@@ -64,7 +63,6 @@ public class BluetoothPageActivity extends AppCompatActivity {
                     showToast("Bluetooth is already on");
                 }
             }
-
         });
 
 
